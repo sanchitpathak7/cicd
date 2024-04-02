@@ -49,13 +49,3 @@ stages:
         repository: '$(imageRepository)'
         command: 'push'
         tags: '$(tag)'
-- stage: Update
-  displayName: Update
-  jobs:
-  - job: Update
-    displayName: Update
-    steps:
-    - task: ShellScript@2
-      inputs:
-        scriptPath: 'manifest-update-scripts/updateK8sManifest.sh'
-        args: 'vote $(imageRepository) $(tag)'
