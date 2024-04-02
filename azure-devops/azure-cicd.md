@@ -1,7 +1,3 @@
-+++
-title = "Azure DevOps CI/CD Project for Distributed Microservice Application"
-+++
-
 Azure DevOps is a suite of services provided by Microsoft Azure that allows teams to plan projects, collaborate on code development, and deploy applications. It includes services like Azure Repos for version control, Azure Pipelines for continuous integration and deployment (CI/CD), Azure Boards for project management, Azure Artifacts for package management, and Azure Test Plans for test management. 
 
 ![](https://github.com/sanchitpathak7/blogsite/assets/44384286/6488929e-8b3d-4bfc-a081-daafb4947213)
